@@ -7,7 +7,7 @@ import Pizza from "./routes/Pizza";
 
 const App = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
@@ -16,7 +16,7 @@ const App = () => {
         </Route>
       </Switch>
       <Footer />
-    </>
+    </div>
   );
 };
 export default App;
